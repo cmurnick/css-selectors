@@ -34,15 +34,28 @@ a .disabled {
 	color: blue;
 }
 
+.parent div:first-of-type div:first-child + h4 {
+	background-color: red;
+}
 
-#blue h4 {
+.parent div:first-of-type div:last-of-type + h4 {
 	background-color: blue;
 }
 
+.grandparent > h4 {
+	border-radius: 5px;
+	border: 1px solid black;
+}
 
+.promo {
+	color: gold;
+	font-weight: bold;
+}
 
-
-
+.padded input:enabled {
+	line-height: 25px;
+}
+	
 
 
 
