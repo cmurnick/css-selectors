@@ -1,0 +1,51 @@
+
+header {
+	border: 1px solid purple;
+}
+
+#nav ul {
+	display: flex;
+
+}
+
+#nav ul li{
+	list-style: none;
+	margin-right: 10px;
+
+}
+
+.disabled {
+	color: grey;
+}
+
+a .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow
+}
+
+.parent div:first-of-type div:first-child {
+	color: red;
+}
+
+.parent div:first-of-type div:last-of-type {
+	color: blue;
+}
+
+
+#blue h4 {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
